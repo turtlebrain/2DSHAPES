@@ -5,7 +5,7 @@
 using namespace std;
 
 Geometry::Geometry() {
-
+	IsPoint = false;
 }
 
 Geometry::Geometry(vector<C2DVector> vertices) {
@@ -67,4 +67,9 @@ bool Geometry::IsInside(Geometry geom) {
 		int intercept[4]; 
 	}
 	return true;
+}
+
+void Geometry::CollsionDetection()
+{
+
 }

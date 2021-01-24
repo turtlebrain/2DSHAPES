@@ -13,6 +13,7 @@ public:
 
 	Geometry Rotate(double angle);
 	bool IsInside(Geometry geom);
+	void CollsionDetection();
 
 public:
 	vector<C2DVector> m_vertices;
